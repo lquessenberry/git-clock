@@ -1,0 +1,42 @@
+{
+  "name": "git-clock",
+  "version": "0.2.0",
+  "description": "Estimate team effort and velocity from git commit timestamps. Progressive, local, works with any git project.",
+  "type": "module",
+  "bin": {
+    "git-clock": "./bin/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "node bin/cli.js",
+    "dev": "node --watch bin/cli.js"
+  },
+  "keywords": [
+    "git",
+    "time-tracking",
+    "effort",
+    "velocity",
+    "commits",
+    "team",
+    "cli",
+    "histogram"
+  ],
+  "author": "Lee Quessenberry",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lquessenberry/git-clock.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lquessenberry/git-clock/issues"
+  },
+  "homepage": "https://github.com/lquessenberry/git-clock#readme"
+}
