@@ -116,3 +116,9 @@ limits the new count to commits after a date.
 `docs/session-timer.md` asks for a session timer that records saves
 and autosave next to the commit clock. It is not built. Commit hours
 stay the hours until that request is implemented.
+
+`docs/premium.md` asks for the premium planning clocks: a story-point
+quantizer, the Murphy, Unknown, and MacGyver calculator, burndown, and
+an optimization factor of clock hours against billed hours and a rate.
+Those commands stay out of the default report. Clock hours are not a
+billing rate.
