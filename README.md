@@ -110,3 +110,9 @@ you have chosen to share the clock in git.
 
 `--reset` starts that project over. `--reset --since 2026-01-01`
 limits the new count to commits after a date.
+
+## Requests
+
+`docs/session-timer.md` asks for a session timer that records saves
+and autosave next to the commit clock. It is not built. Commit hours
+stay the hours until that request is implemented.
